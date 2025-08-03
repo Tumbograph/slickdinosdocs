@@ -24,7 +24,7 @@ There are several important points that you **MUST** have to become a proud Slic
 - Follow Slick Dino socials and engage (**[Dinos on X](https://slickdinos.com)**)
 - Not have a purpose of flipping our assets for profit
 - Not try to snipe and profit on our projects (We will still make sure you can't)
-- Have a Phantom wallet or alternatives of it (**[How to](https://phantom.com/learn/guides/how-to-create-a-new-wallet)**
+- Have a Phantom wallet or alternatives of it (**[How to](https://phantom.com/learn/guides/how-to-create-a-new-wallet))**
 
 ### What you'll get
 

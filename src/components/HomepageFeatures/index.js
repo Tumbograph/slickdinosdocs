@@ -4,42 +4,43 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'SlickDinos IP',
+    // Future PNG: /img/slickdinos-ip.png
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Slick Dinos IP is focused on spreading positive vibes and slickness 
+        by crafting cool brand, memetic culture, and advanced technology.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Community First',
+    // Future PNG: /img/community-first.png
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Slick Dinos main pillar is the community and Dino devs are focused on creating value 
+        and distributing it in the community <code>equally and ethically</code>.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Advanced Technology',
+    // Future PNG: /img/advanced-tech.png
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Our technology platform and tools creates competitive advantage for our community.
+        Make use of our tech to stay ahead in the crypto space.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ title, description }) { // Removed Svg from props
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        {/* SVG commented out; replace with PNG when available */}
+        {/* <Svg className={styles.featureSvg} role="img" /> */}
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>

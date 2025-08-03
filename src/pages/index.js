@@ -10,17 +10,30 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header
+      className={clsx('hero hero--primary', styles.heroBanner)}
+      style={{
+        backgroundColor: '#343541', // SlickDinos orange
+        paddingTop: '0rem', // Reduce top padding/spacing
+        paddingBottom: '1rem', // Keep some bottom spacing
+      }}
+    >
       <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <div className={clsx('text--center', styles.heroImage)}>
+          <img
+            src="/img/DocsHero.png"
+            alt="Slick Dinos Docs Hero"
+            style={{ maxWidth: '30%', height: 'auto' }} // Keep existing size
+          />
+        </div>
+        <p className="hero__subtitle" style={{ color: '#d1d5db' }}>
+          {siteConfig.tagline}
+        </p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="https://slickdinos.com">
-            Slick Dinos Web
+            to="/docs/intro">
+            Docs 🦖
           </Link>
         </div>
       </div>
@@ -33,7 +46,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Slick Dinos documentations portal/>">
+      description="Slick Dinos documentation portal">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

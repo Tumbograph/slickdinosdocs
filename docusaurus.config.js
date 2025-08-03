@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Slick Dinos Docs',
-  tagline: 'Dinos are irresistibly Slick',
+  tagline: 'Slick Dinos documentations portal',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -89,7 +89,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Developer Docs',
+            label: 'Docs',
           },
           //{to: '/blog', label: 'Blog', position: 'left'},
         ],
@@ -98,10 +98,10 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Pages',
             items: [
               {
-                label: 'Developer Docs',
+                label: 'Docs',
                 to: '/docs/intro',
               },
             ],
@@ -118,6 +118,10 @@ const config = {
           {
             title: 'More',
             items: [
+              {
+                label: 'SlickDinos Web',
+                href: 'https://slickdinos.com',
+              },
               {
                 label: 'IP Rights',
                 href: 'https://slickdinos.com/ip-rights',

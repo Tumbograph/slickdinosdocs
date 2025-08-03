@@ -1,3 +1,4 @@
+/* src/css/custom.css */
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
@@ -6,25 +7,29 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #f7931a; /* SlickDinos orange */
+  --ifm-color-primary-dark: #e07c00;
+  --ifm-color-primary-darker: #cc7000;
+  --ifm-color-primary-darkest: #b86300;
+  --ifm-color-primary-light: #f9a33a;
+  --ifm-color-primary-lighter: #fab35a;
+  --ifm-color-primary-lightest: #fcc37a;
+  --ifm-background-color: #ffffff; /* Light base */
+  --ifm-font-color-base: #2a2d3d; /* Dark text */
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(247, 147, 26, 0.1); /* Subtle orange highlight */
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* Dark mode adjustments */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #f7931a; /* Consistent orange */
+  --ifm-color-primary-dark: #e07c00;
+  --ifm-color-primary-darker: #cc7000;
+  --ifm-color-primary-darkest: #b86300;
+  --ifm-color-primary-light: #f9a33a;
+  --ifm-color-primary-lighter: #fab35a;
+  --ifm-color-primary-lightest: #fcc37a;
+  --ifm-background-color: #343541; /* SlickDinos dark gray */
+  --ifm-font-color-base: #d1d5db; /* Light text */
+  --docusaurus-highlighted-code-line-bg: rgba(247, 147, 26, 0.3); /* Darker orange highlight */
 }
